@@ -16,4 +16,4 @@ jobs:
           git config --global user.name "${{ secrets.GIT_USER_NAME }}"
       
       - name: Run script
-        run: python upno.py
+        run: python3 upno.py
