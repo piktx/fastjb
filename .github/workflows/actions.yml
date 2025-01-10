@@ -16,6 +16,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          cache: 'pip' # Caches the pip packages to speed up the workflow
       
       - name: Configure Git User
         run: |
