@@ -3,7 +3,7 @@ permissions:
   contents: write
 on:
   schedule:
-    - cron: '45 5 * * *'  # Runs daily at 11:00 AM IST
+    - cron: '0 18 * * *'  # Runs daily at 18:00 hrs UTC (00:00 hrs IST)
   workflow_dispatch:  # Allows manual triggering for testing
 
 jobs:
