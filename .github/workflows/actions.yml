@@ -4,6 +4,8 @@ permissions:
 on:
   schedule:
     - cron: '10 19 * * *'  # Runs daily at 19:10 hrs UTC (00:40 hrs IST)
+    - cron: '30 00 * * *'  # Runs daily at 00:30 hrs UTC (06:00 hrs IST)
+    - cron: '30 06 * * *'  # Runs daily at 06:30 hrs UTC (12:00 hrs IST)
   workflow_dispatch:  # Allows manual triggering for testing
 
 jobs:
